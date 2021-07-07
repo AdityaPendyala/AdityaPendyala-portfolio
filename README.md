@@ -1,3 +1,3 @@
 # AdityaPendyala-portfolio
 Website to display my portfolio
-Personal Portfolio in making
+Portfolio in making
