@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet"/>
     <title>Aditya's Portfolio</title>
 </head>
 
@@ -16,43 +17,43 @@
     <h2>@Headings</h2>
 
     <h1>h1 is the biggest heading</h1>
-    <h2>h1 is the second biggest heading</h2>
-    <h3>h1 is the third biggest heading</h3>
-    <h4>h1 is the fourth biggest heading</h4>
-    <p> This is just some text</p>
+    <h2>h2 is the second biggest heading</h2>
+    <h3>h3 is the third biggest heading</h3>
+    <h4>h4 is the fourth biggest heading</h4>
+    <p> This is just some <strong>text</strong></p>
     <small>
         This is smaller text
     </small>
     <hr>
     <h2>@containers</h2>
     <h3>Fluid container</h3>
-    <div>Fluid container goes till the end of the page</div>
+    <div class="container">Fluid container goes till the end of the page</div>
     <h3>Center container</h3>
-    <div>Center container goes till the specified width</div>
+    <div class="container center-container">Center container goes till the specified width</div>
     <hr>
     <h2>@links</h2>
-    <a href="https://www.youtube.com/watch?v=MEg-oqI9qmw">Primary link</a>
-    <a href="https://www.youtube.com/watch?v=KpXsfimrkFo">Secondary link</a>
+    <a class="links link-primary" href="https://www.youtube.com/watch?v=MEg-oqI9qmw">Primary link</a>
+    <a class="links link-secondary" href="https://www.youtube.com/watch?v=KpXsfimrkFo">Secondary link</a>
     <hr>
     <h2>@Lists</h2>
     <ul>
-        <li>One</li>
-        <li>Two</li>
-        <li>three</li>
+        <li class="list-type">One</li>
+        <li class="list-type">Two</li>
+        <li class="list-type">three</li>
     </ul>
-    <ol>
+    <ol reversed>
         <li>One</li>
         <li>Two</li>
         <li>three</li>
     </ol>
     <hr>
     <h2>@Navbar</h2>
-    <nav>
-        <div>Components of nav</div>
-        <ul>
-            <li><a href="/">One</a></li>
-            <li><a href="/">Two</a></li>
-            <li><a href="/">Three</a></li>
+    <nav class="navigation">
+        <div class="navbrand">Components of nav</div>
+        <ul class="list-no-bullet">
+            <li class="inline-list"><a class="links link-active" href="/">One</a></li>
+            <li class="inline-list"><a class="links" href="/">Two</a></li>
+            <li class="inline-list"><a class="links" href="/">Three</a></li>
         </ul>
     </nav>
     <h2>@Header</h2>
