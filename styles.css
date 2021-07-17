@@ -18,7 +18,7 @@ body{
 }
 .links{
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    padding: 0.4rem 1rem;
 }
 .link-primary{
     background-color: var(--primary-color);
@@ -72,10 +72,12 @@ body{
 }
 .section{
     text-align: center;
+    padding: 0.5rem 0rem;
 }
 .sectiongray{
     text-align: center;
     background-color: var(--offwhite);
+    padding: 0.5rem 0rem;
 }
 .footer{
     background-color: var(--primary-color);
@@ -90,4 +92,8 @@ body{
 }
 .footer ul{
     padding-inline-start: 0px;
+}
+.margin{
+    padding-top: 1rem;
+    
 }
